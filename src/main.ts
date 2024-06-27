@@ -51,18 +51,18 @@ function establecerTurnoManual() {
     }
    }
    
-if (botonAnterior instanceof HTMLElement) {
+if (botonAnterior instanceof HTMLButtonElement) {
 botonAnterior.addEventListener("click", turnoAnterior);
 }
 
-if (botonSiguiente instanceof HTMLElement) {
+if (botonSiguiente instanceof HTMLButtonElement) {
 botonSiguiente.addEventListener("click", turnoSiguiente);
 }
 
-if (botonReset instanceof HTMLElement) {
+if (botonReset instanceof HTMLButtonElement) {
 botonReset.addEventListener("click", reset);
 }
 
-if (botonIntro instanceof HTMLElement) {
+if (botonIntro instanceof HTMLButtonElement) {
 botonIntro.addEventListener("click", establecerTurnoManual);
 }
